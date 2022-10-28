@@ -1,4 +1,12 @@
-﻿using Jala_university_Aula12;
+﻿using Jala_university_Aula12.Good;
+//using Jala_university_Aula12.Bad;
+
+//var pagamentobad = new PagamentoSystemBad();
+//var boletobad = pagamentobad.GerarBoleto();
+//pagamentobad.ValidarDate(boletobad);
+//pagamentobad.ValidarCodigo(boletobad);
+//pagamentobad.EfetuarPagemento(boletobad);
+//Console.WriteLine("---------------------------------------------------------------");
 
 var boleto = BoletoExtension.GerarBoleto();
 Console.WriteLine($"Boleto gerado com sucesso: {boleto.Codigo}");

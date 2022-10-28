@@ -1,4 +1,4 @@
-﻿namespace Jala_university_Aula12
+﻿namespace Jala_university_Aula12.Good
 {
     internal static class BoletoExtension
     {
